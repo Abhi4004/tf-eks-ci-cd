@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/jsachdev07/tf-eks-ci-cd.git'
+                git 'https://github.com/Abhi4004/tf-eks-ci-cd.git'
             }
         }
 
