@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION      = 'us-east-1'
+        AWS_REGION      = 'ap-south-1'
         CLUSTER_NAME    = 'demo-cluster'
-        NODE_KEY        = 'linux'
+        NODE_KEY        = 'linuxkp'
         DOCKERHUB_CREDS = 'dockerhub'
     }
 
