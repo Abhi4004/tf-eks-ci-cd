@@ -1,11 +1,11 @@
 variable "node_key" {
   description = "EC2 keypair name for SSH access"
-  default     = "ap-linux-kp"
+  default     = "linux"
 }
 
 variable "region" {
   description = "AWS region"
-  default     = "ap-south-1"
+  default     = "us-east-1"
 }
 
 variable "cluster_name" {
